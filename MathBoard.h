@@ -15,6 +15,7 @@ public:
 
 private:
     QGraphicsView * graphicsView;
+    QGraphicsScene * graphicsScene;
     QTableWidget * tableWidget;
 };
 
