@@ -25,10 +25,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        MainWindow.cpp
+    MathBoard.cpp
 
 HEADERS += \
-        MainWindow.h
+    MathBoard.h
 
-FORMS += \
-        MainWindow.ui
+FORMS +=
+
+RESOURCES += \
+    Resources.qrc

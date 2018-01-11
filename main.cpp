@@ -1,11 +1,12 @@
-#include "MainWindow.h"
+#include "MathBoard.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
+    MathBoard mathBoard;
+    mathBoard.resize(1500, 500);
+    mathBoard.show();
 
     return a.exec();
 }
